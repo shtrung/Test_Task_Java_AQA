@@ -46,7 +46,7 @@ public class TestTask2 {
         AddProductToCart addProductToCart = new AddProductToCart(driver);
         addProductToCart.addToCart();
 
-        //3.  Переодим в корзину.
+        //3.  Переходим в корзину.
         EqualsPriceInCart equalsPriceInCart = new EqualsPriceInCart(driver);
         equalsPriceInCart.goToCart();
 
